@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 400;
+}
+h1 {
+  font-size: 128px;
+  color: #00ffa3;
+  text-align: right;
+}
+
+.topbar,
+.header,
+.footer {
+  background-color: #000000;
+}
+.flex-ad {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #d1d1d1;
+}
+.topbar {
+  padding: 40px 0px 40px 0px;
+}
+
+.topbar ul li a:hover {
+  color: #00ffa3;
+}
+
+.header {
+  padding: 72px 0px 32px 0px;
+}
+.header-style {
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.header-text {
+  width: 636px;
+}
+
+.header-a a {
+  display: block;
+  padding: 12px 14px 12px 24px;
+  color: #000000;
+  background-color: #ffffff;
+  width: 185px;
+  border-radius: 32px;
+  text-decoration: none;
+}
+.header-style a img {
+  vertical-align: middle;
+}
+/* 按鈕 */
+.header-a {
+  display: flex;
+  justify-content: right;
+}
+.content {
+  background-image: url(../img/background-img.png);
+  background-size: cover;
+  padding: 160px 0 160px 0;
+}
+.introduction {
+  max-width: 526px;
+}
+.introduction h2 {
+  margin-bottom: 36px;
+}
+.introduction p {
+  font-size: 24px;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+.star img {
+  margin-right: 16px;
+}
+.photo {
+  justify-content: center;
+  gap: 24px;
+}
+
+.content-item {
+  padding: 160px 0 160px 0;
+}
+
+.content-bk {
+  align-items: center;
+  gap: 134px;
+}
+
+.content-item ol li,
+.content-item2 h2,
+p {
+  color: #15161d;
+}
+
+.item {
+  max-width: 636px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.item li {
+  width: 48.11%;
+  padding: 16px;
+  border: 1px #e3e3e3 solid;
+  box-shadow: 4px 4px 4px 0px #00000014;
+}
+
+.item li h4 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.item li:hover {
+  box-shadow: 4px 4px 4px 0px #90c485f1;
+  transition: 0.8s;
+}
+
+.content-item2 {
+  max-width: 526px;
+}
+.content-item2 h2 {
+  margin-bottom: 36px;
+}
+.content-item2 p {
+  font-size: 24px;
+}
+.contac {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  padding: 96px 0px 96px 0px;
+}
+.contac-bk {
+  align-items: center;
+}
+
+.contac h2 img {
+  vertical-align: middle;
+}
+.contac-ad {
+  justify-content: center;
+  gap: 20px;
+}
+.contac-ad a {
+  display: inline-block;
+}
+
+.contac-ad a img:hover {
+  box-shadow: 0px 0px 16px 3px #9094ffe5;
+  border-radius: 40px;
+}
+/* 專案 */
+.projects {
+  padding: 160px 0px 160px 0px;
+}
+
+.projects h2 {
+  color: #000000;
+  padding-left: 550px;
+  margin-bottom: 16px;
+}
+
+.projects-ad {
+  justify-content: center;
+  gap: 24px;
+}
+.projects-ad-b {
+  flex-direction: column;
+  align-items: last baseline;
+}
+
+.ad-1 {
+  gap: 24px;
+}
+.projects-ad-a {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.a-style a {
+  background-color: #000000;
+  color: #ffffff;
+}
+.a-style a img {
+  vertical-align: middle;
+}
+
+.footer {
+  padding: 40px 0px 40px 0;
+}
+.footer p {
+  color: #ffffff;
+  text-align: center;
+}
